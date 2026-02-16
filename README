@@ -1,0 +1,44 @@
+# BugBoard AI
+
+AI-assisted bug triage tool built as an experiment in structured issue intelligence.
+
+## Overview
+
+BugBoard AI converts unstructured bug descriptions into structured, actionable reports using rule-based AI logic (mocked LLM-style pipeline).
+
+It demonstrates:
+
+- Raw text → structured record transformation
+- Severity classification
+- Component/environment extraction
+- Suggested fix reasoning
+- Confidence scoring
+- REST API integration between backend and frontend
+
+## Tech Stack
+
+Backend:
+- Java 17
+- Spring Boot
+- REST APIs
+- JPA / H2 (in-memory DB)
+
+Frontend:
+- React
+- Vite
+- Custom serif + sans typography design
+
+## Why This Project
+
+This project explores how AI systems can assist developer workflows by:
+
+- Reducing manual triage
+- Enforcing structured issue schemas
+- Generating consistent metadata
+- Improving developer velocity
+
+Designed as a lightweight AI tooling experiment inspired by modern workflow platforms.
+
+---
+
+Created by Hygreev Manikandan
